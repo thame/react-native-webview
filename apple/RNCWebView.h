@@ -65,6 +65,7 @@
 @property (nonatomic, copy) NSString * _Nullable allowingReadAccessToURL;
 @property (nonatomic, assign) BOOL pullToRefreshEnabled;
 @property (nonatomic, weak) UIRefreshControl * refreshControl;
+@property (nonatomic, copy) NSDictionary * _Nullable basicAuthCredential;
 
 #if defined(__IPHONE_OS_VERSION_MAX_ALLOWED) && __IPHONE_OS_VERSION_MAX_ALLOWED >= 130000 /* iOS 13 */
 @property (nonatomic, assign) WKContentMode contentMode;
